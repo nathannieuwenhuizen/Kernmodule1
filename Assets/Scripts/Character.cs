@@ -1,5 +1,8 @@
 ﻿using UnityEngine;
 
+/// <summary>
+/// Handles the movement and the health.
+/// </summary>
 public class Character : MonoBehaviour, IDestroyable
 {
     //movement
