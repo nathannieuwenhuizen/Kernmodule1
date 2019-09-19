@@ -1,0 +1,189 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" GroupingSetting="Access" MembersFormat="NameAndType">
+  <Class Name="CameraLoop" Collapsed="true">
+    <Position X="10" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AARABAAAACAAAAAABIAAAAAAAAAAAAABAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Camera\CameraLoop.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CameraShake" Collapsed="true">
+    <Position X="9.75" Y="0.5" Width="1.5" />
+    <NestedTypes>
+      <Delegate Name="CameraShake.ShakeDelegate" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Assets\Scripts\Camera\CameraShake.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Delegate>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAiAAAAAAAAAAAAAAAAAACgBIAAAAAKAAGAg=</HashCode>
+      <FileName>Assets\Scripts\Camera\CameraShake.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameManager" Collapsed="true">
+    <Position X="13.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAoAAAAACAAAAAAAAAAAAAAAABAAgAMQAJAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Handelers\GameManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="InputHandeler" Collapsed="true">
+    <Position X="11.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAAAAiAEAAAAAAAAAAAAAAAAAAAAAAgAAAAgAAA=</HashCode>
+      <FileName>Assets\Scripts\Handelers\InputHandeler.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WaveManager" Collapsed="true">
+    <Position X="13.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAICAAAAAAAAAAAAQCAIAYAAABCCBAYQAggARACCUQ=</HashCode>
+      <FileName>Assets\Scripts\Handelers\WaveManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HighscoreHandeler" Collapsed="true">
+    <Position X="8.25" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Highscore\HighscoreHandeler.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Menu">
+    <Position X="7" Y="1.25" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Menu\Menu.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PoolManager">
+    <Position X="17.75" Y="1.25" Width="1.5" />
+    <NestedTypes>
+      <Class Name="PoolManager.PoolInstance&lt;T&gt;" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Assets\Scripts\ObjectPooling\PoolManager.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="PoolManager.ObjectInstance&lt;T&gt;" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Assets\Scripts\ObjectPooling\PoolManager.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAAAAAAAABAAAAAAAAAABAAIAAAAAAAAAQAAA=</HashCode>
+      <FileName>Assets\Scripts\ObjectPooling\PoolManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PoolObject">
+    <Position X="3" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAgAAAAAABAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\ObjectPooling\PoolObject.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Asteroid">
+    <Position X="3" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAAAAAAAAAAAAAgAAAFAAAAAAAQCAAggAAAAAg=</HashCode>
+      <FileName>Assets\Scripts\Objects\Asteroid.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Bullet">
+    <Position X="0.5" Y="4.5" Width="1.5" />
+    <InheritanceLine Type="FloatingEntity" ManuallyRouted="true" FixedToPoint="true">
+      <Path>
+        <Point X="2" Y="3.691" />
+        <Point X="2" Y="4.107" />
+        <Point X="1.375" Y="4.107" />
+        <Point X="1.375" Y="4.5" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAgAAAAACAAAAAAAAAAAAAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Objects\Bullet.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FloatingEntity" Collapsed="true">
+    <Position X="1.25" Y="3" Width="1.5" />
+    <InheritanceLine Type="PoolObject" FixedToPoint="true">
+      <Path>
+        <Point X="3.75" Y="1.925" />
+        <Point X="3.75" Y="2.625" />
+        <Point X="2.125" Y="2.625" />
+        <Point X="2.125" Y="3" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAgAAAAAABAAQAAAAAAAAAACAA=</HashCode>
+      <FileName>Assets\Scripts\Objects\FloatingEntity.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Particle">
+    <Position X="5.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAAAgAABAAAAAAAAgAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Objects\Particle.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Character" BaseTypeListCollapsed="true">
+    <Position X="15.75" Y="2.25" Width="1.5" />
+    <Members>
+      <Method Name="OnCollisionExit2D" Hidden="true" />
+      <Method Name="OnCollisionStay2D" Hidden="true" />
+      <Method Name="Trigger" Hidden="true" />
+      <Method Name="TriggerHold" Hidden="true" />
+      <Method Name="Untrigger" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AQgQCAIAAiAEgBAUAAQAAAAAAAAAAEAoAAEAgAAAACg=</HashCode>
+      <FileName>Assets\Scripts\Character.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Gun">
+    <Position X="12.5" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAQAAAAAiAABBAAAAAAAAAAAAAAABACQAGgAACAAAA=</HashCode>
+      <FileName>Assets\Scripts\Gun.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="InGameUI" Collapsed="true">
+    <Position X="10" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAAAAAAAAAgAAAAAAAAAAAAAAAIAAAAAAAACAA=</HashCode>
+      <FileName>Assets\Scripts\InGameUI.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LoopAbleEntity" Collapsed="true">
+    <Position X="0.5" Y="1" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAiAAACQQAAAAQAAgAAAAAAAAAAAAAAgAIAA=</HashCode>
+      <FileName>Assets\Scripts\LoopAbleEntity.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SceneHandeler" Collapsed="true">
+    <Position X="11.75" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAEAAAAAAAgAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\SceneHandeler.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="IPoolable">
+    <Position X="7.5" Y="6" Width="1.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAgAAAAAABAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\ObjectPooling\PoolObject.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="IDestroyable">
+    <Position X="5.75" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\IDamagable.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
